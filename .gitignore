@@ -1,0 +1,127 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# ========================
+# Jupyter Notebook
+# ========================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.nbconvert.py
+profile_default/
+ipython_config.py
+
+# ========================
+# Virtual Environments
+# ========================
+venv/
+env/
+ENV/
+.venv/
+.env
+Pipfile.lock
+
+# ========================
+# Large Model Files
+# ========================
+*.pt
+*.pth
+*.h5
+*.hdf5
+*.ckpt
+*.safetensors
+*.bin
+*.onnx
+*.pkl
+*.pickle
+saved_model/
+checkpoints/
+fine_tuned_model/
+gpt2-finetuned/
+results/
+runs/
+
+# ========================
+# Large Datasets (push only samples)
+# ========================
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.xlsx
+!sample_*.csv
+!*_sample.csv
+
+# ========================
+# Logs & Outputs
+# ========================
+*.log
+logs/
+output/
+outputs/
+*.out
+wandb/
+mlruns/
+lightning_logs/
+
+# ========================
+# IDE & Editor
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+.spyproject
+.ropeproject
+
+# ========================
+# OS Generated
+# ========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ========================
+# Hugging Face Cache
+# ========================
+.cache/
+~/.cache/huggingface/
+
+# ========================
+# Miscellaneous
+# ========================
+*.zip
+*.tar.gz
+*.rar
+*.7z
+.pytest_cache/
+.mypy_cache/
+.tox/
+htmlcov/
+.coverage
+coverage.xml
